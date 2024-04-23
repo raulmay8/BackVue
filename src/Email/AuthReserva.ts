@@ -15,6 +15,7 @@ export class AuthReserva {
             text: 'Cenotes Homun - Reserva exitosa',
             html: `<p>Hola: ${clientes.nameCliente}, su reserva a sido programada, puede buscar su reserva en </p>
                     <p>Visita el siguiente enlace:</p>
+                    <a href="http://localhost:5173/busquedaReserva">Busca tu reserva</a>
                     <p>Id de tu reserva <b>${clientes.token}</b></p>
                     `
         })
